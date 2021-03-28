@@ -28,7 +28,7 @@ table_settings = {
 listToStr = ''
 # with open(file_path, "r") as file:
 def process_2006():
-    with open('table_output.txt', 'a+') as output:
+    with open('table_2006_output.txt', 'a+') as output:
         with pdfplumber.open('./input_data/2006.pdf') as pdf:
             pages = pdf.pages
             print(len(pages))
